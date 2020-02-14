@@ -79,10 +79,26 @@
             }
         },
         {
+            "Key": "4c15d488-447f-4e0b-87cc-1b6cc7a3bda5",
+            "Value": {
+                "id": "7e2a8ecb-934c-4b7b-8939-ec9dbe6aed47",
+                "resourcePath": "views\\4c15d488-447f-4e0b-87cc-1b6cc7a3bda5.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "5eb995be-526a-4cf6-b913-41f84a426bf1",
             "Value": {
                 "id": "d6092cbb-6c53-4a56-a364-3b872e7970bd",
                 "resourcePath": "sprites\/obj_player_idle\/obj_player_idle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6019e7bc-7e12-4bf7-bd74-01095c803022",
+            "Value": {
+                "id": "bcd90743-fdc4-44ca-9930-7207026dbb7a",
+                "resourcePath": "sprites\\spr_frog_attack\\spr_frog_attack.yy",
                 "resourceType": "GMSprite"
             }
         },
