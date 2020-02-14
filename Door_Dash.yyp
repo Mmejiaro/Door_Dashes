@@ -71,35 +71,11 @@
             }
         },
         {
-            "Key": "390b0908-3a54-4f07-ae32-d906893a0057",
-            "Value": {
-                "id": "5b66ffb3-5fb1-4689-a8d9-80c96a35d4f0",
-                "resourcePath": "sprites\\spr_frog_attack\\spr_frog_attack.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "3b7fe4a8-7ddc-47d7-966d-18801a28d204",
             "Value": {
                 "id": "80c62850-16ca-4402-85a7-cb1353d2ca69",
                 "resourcePath": "views\/3b7fe4a8-7ddc-47d7-966d-18801a28d204.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "4ce59a97-5218-406c-84e4-26d04a7ff706",
-            "Value": {
-                "id": "f9c479c0-ad6a-442c-bb75-e7cae8232843",
-                "resourcePath": "sprites\\spr_frog_jump_start\\spr_frog_jump_start.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "565eb8f0-1c67-4fe2-a832-cf7b283c8ee3",
-            "Value": {
-                "id": "042c8380-a193-4bc7-b477-5f8bd223017a",
-                "resourcePath": "sprites\\spr_frog_jump\\spr_frog_jump.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -159,27 +135,11 @@
             }
         },
         {
-            "Key": "8f4e4216-f279-4677-b16f-670a02d67300",
-            "Value": {
-                "id": "069a0ba2-c7c3-41e2-bece-b1a2918245d0",
-                "resourcePath": "views\\8f4e4216-f279-4677-b16f-670a02d67300.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "8f831dd6-6a41-492c-915e-f3fd5eb9ea4a",
             "Value": {
                 "id": "f47f2cf8-4548-4e80-99b7-8b79e2b3a804",
                 "resourcePath": "views\/8f831dd6-6a41-492c-915e-f3fd5eb9ea4a.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "91accd35-f794-4f45-8f39-223f63a0ede0",
-            "Value": {
-                "id": "9d85da20-18a6-41d4-a504-a6917523a49d",
-                "resourcePath": "sprites\\spr_frog_jump_land\\spr_frog_jump_land.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -212,14 +172,6 @@
                 "id": "cc360fa8-f515-4eb9-a460-1a1ee710d2dc",
                 "resourcePath": "options\/linux\/options_linux.yy",
                 "resourceType": "GMLinuxOptions"
-            }
-        },
-        {
-            "Key": "b9d23e27-610d-4f28-9705-a3d4fa06390f",
-            "Value": {
-                "id": "5b480daf-6183-4f01-a3ef-f2321aae4b6e",
-                "resourcePath": "sprites\\spr_frog_idle\\spr_frog_idle.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
