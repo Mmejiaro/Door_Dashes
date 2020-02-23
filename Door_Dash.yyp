@@ -63,19 +63,19 @@
             }
         },
         {
+            "Key": "2b283e46-dca3-427d-be39-aebbb93dbb27",
+            "Value": {
+                "id": "c043e774-ed7b-4baa-9d0a-bd9d9ebbc568",
+                "resourcePath": "sprites\/spr_player_attack\/spr_player_attack.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2b4886cf-f1c1-48e6-baac-2b9bd8c5094e",
             "Value": {
                 "id": "8b432a7b-0ea5-48cf-9c00-c8515e448be1",
                 "resourcePath": "views\/2b4886cf-f1c1-48e6-baac-2b9bd8c5094e.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "2b4eeac9-8f5a-4077-8ec9-9bbcf82eb3bb",
-            "Value": {
-                "id": "19cf645f-cef5-403d-87e6-09a2476f1cea",
-                "resourcePath": "sprites\/spr_player_attack\/spr_player_attack.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
