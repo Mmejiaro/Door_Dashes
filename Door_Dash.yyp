@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "2a793985-2abc-4cd2-9409-889229b2cf4c",
+            "Value": {
+                "id": "2996c8d5-a5c0-4761-82d2-4bff5de74a03",
+                "resourcePath": "scripts\\breathing\\breathing.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "2b283e46-dca3-427d-be39-aebbb93dbb27",
             "Value": {
                 "id": "c043e774-ed7b-4baa-9d0a-bd9d9ebbc568",
@@ -103,14 +111,6 @@
             }
         },
         {
-            "Key": "2c5c6743-9e7e-4599-b166-e4332f2c4fef",
-            "Value": {
-                "id": "283c3e3f-9499-46c4-979f-1eb284178023",
-                "resourcePath": "objects\/obj_enemy\/obj_enemy.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "2ccc4efa-414b-465c-8462-31566b262ee3",
             "Value": {
                 "id": "f4981d9d-f515-4583-91da-f5fe0c851b52",
@@ -123,6 +123,14 @@
             "Value": {
                 "id": "83a962c2-7bf1-4ab5-b996-d4a35d44ea06",
                 "resourcePath": "views\\2e06fcca-a23a-4dbe-a042-c43a11a4ef8e.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "2fadf8c8-63df-4d1e-9a4f-a507a21c9458",
+            "Value": {
+                "id": "a6805a07-9ca3-4e6b-aeab-ed2a506481c8",
+                "resourcePath": "views\\2fadf8c8-63df-4d1e-9a4f-a507a21c9458.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -183,6 +191,30 @@
             }
         },
         {
+            "Key": "5444ef57-940d-4a3d-acf4-235d33635b46",
+            "Value": {
+                "id": "12a76723-b6c5-438d-aaba-3de9f44077e0",
+                "resourcePath": "datafiles_yy\\breathing\\breathing.yy.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "54bf12d2-1c80-46e5-bc1a-7f78eb658792",
+            "Value": {
+                "id": "bc2c0f90-6747-45c1-9801-e2998fc3ad0d",
+                "resourcePath": "objects\\obj_frog\\obj_frog.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "55cd4b8e-42c0-45a2-a2a4-a7bd1bad83b6",
+            "Value": {
+                "id": "50f344c2-897e-42de-810d-5b0c72527ca7",
+                "resourcePath": "scripts\\frog_idle_state\\frog_idle_state.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "5eb995be-526a-4cf6-b913-41f84a426bf1",
             "Value": {
                 "id": "d6092cbb-6c53-4a56-a364-3b872e7970bd",
@@ -239,6 +271,22 @@
             }
         },
         {
+            "Key": "755a2a32-0021-4c2b-abec-1918c64c4b6d",
+            "Value": {
+                "id": "341d0015-5982-49eb-9606-56ea01fcade1",
+                "resourcePath": "datafiles_yy\\breathing\\breathing.gml.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "76671dae-49fc-42f1-a392-d3d55797a204",
+            "Value": {
+                "id": "5711aae2-5b9b-43a2-ab1f-48428b9afee9",
+                "resourcePath": "views\\76671dae-49fc-42f1-a392-d3d55797a204.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "77a7d327-f8be-4a7e-963c-439d20876a31",
             "Value": {
                 "id": "58422df5-64e0-4676-a197-1058e48a7c4a",
@@ -247,11 +295,27 @@
             }
         },
         {
+            "Key": "7ab6a1ed-76bb-4f54-8a1c-abc2978b6ef5",
+            "Value": {
+                "id": "9d29f15d-0fa3-44ae-91e9-c7cb39819890",
+                "resourcePath": "scripts\\frog_animation\\frog_animation.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "7fc533c3-90d9-4370-8240-74e6f3c6da88",
             "Value": {
                 "id": "954b4e6f-2c16-4fac-9565-4fa42961ab67",
                 "resourcePath": "views\/7fc533c3-90d9-4370-8240-74e6f3c6da88.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "84392c4a-6c82-4141-b9fe-ece78425f737",
+            "Value": {
+                "id": "a79ecb74-dda1-457e-abf7-19f100ca8c25",
+                "resourcePath": "scripts\\frog_attack_state\\frog_attack_state.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -295,6 +359,14 @@
             }
         },
         {
+            "Key": "93024381-4978-452e-9d2c-8b4a17f32d7b",
+            "Value": {
+                "id": "f4083a7a-4099-4c74-9589-a127c3a3e2ff",
+                "resourcePath": "views\\93024381-4978-452e-9d2c-8b4a17f32d7b.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "98c226c0-61a9-496f-b090-0b4af9a9f70b",
             "Value": {
                 "id": "5cc40761-6018-44cf-acfc-b1e5631660c7",
@@ -324,6 +396,14 @@
                 "id": "9bc4f6db-9f97-46f4-8d7c-f1cbedd43ad7",
                 "resourcePath": "rooms\\ShopRoom\\ShopRoom.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "a4f49d92-c92d-4b6e-b2b9-8f9daca94fc0",
+            "Value": {
+                "id": "494beef7-f9d9-4a82-a7df-954061456118",
+                "resourcePath": "datafiles_yy\\breathing\\breathing.gml.dnd.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -504,7 +584,10 @@
         }
     ],
     "script_order": [
-        
+        "7ab6a1ed-76bb-4f54-8a1c-abc2978b6ef5",
+        "55cd4b8e-42c0-45a2-a2a4-a7bd1bad83b6",
+        "84392c4a-6c82-4141-b9fe-ece78425f737",
+        "2a793985-2abc-4cd2-9409-889229b2cf4c"
     ],
     "tutorial": ""
 }
