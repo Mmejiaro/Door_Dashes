@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_healthPowerup",
     "eventList": [
-        
+        {
+            "id": "2486f960-6493-4146-bd86-0d03ecb31508",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 1,
+            "m_owner": "881ce11b-89fe-4d6c-a4b5-9222eb24122a"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

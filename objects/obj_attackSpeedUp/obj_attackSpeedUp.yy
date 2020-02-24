@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_attackSpeedUp",
     "eventList": [
-        
+        {
+            "id": "1774d7f2-44e9-4f59-b394-a12be2b9b69d",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 1,
+            "m_owner": "183fbf85-b0fa-4468-827a-ea615d1b8646"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": [

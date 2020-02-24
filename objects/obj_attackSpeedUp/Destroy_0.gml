@@ -1,0 +1,1 @@
+obj_player.totalGold -= price;
