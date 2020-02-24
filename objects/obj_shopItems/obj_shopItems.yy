@@ -1,18 +1,18 @@
 {
-    "id": "2fd17c22-bc81-4262-bba1-22b37060ea24",
+    "id": "eeeaa8d5-0633-458e-8da9-0ca0e36cf83e",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_healthPickup",
+    "name": "obj_shopItems",
     "eventList": [
         {
-            "id": "5d24f94f-cac9-4149-bc34-622ba2df386f",
+            "id": "6312fbd6-6f57-48c9-8432-23e1d9797b87",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 1,
-            "m_owner": "2fd17c22-bc81-4262-bba1-22b37060ea24"
+            "eventtype": 0,
+            "m_owner": "eeeaa8d5-0633-458e-8da9-0ca0e36cf83e"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -31,23 +31,8 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "properties": [
-        {
-            "id": "0350812e-9ffd-439f-b87e-c8167b66c344",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "10",
-            "varName": "price",
-            "varType": 1
-        }
-    ],
+    "properties": null,
     "solid": false,
-    "spriteId": "e13100c3-818f-4632-8b67-ad493c7d1f9e",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }
