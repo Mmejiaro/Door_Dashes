@@ -143,6 +143,14 @@
             }
         },
         {
+            "Key": "31218e0b-a675-4b70-8809-749219fed390",
+            "Value": {
+                "id": "b438532b-f9df-41f4-a5aa-675550bfec33",
+                "resourcePath": "objects\\obj_zombie\\obj_zombie.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "32a9ac2b-5ae2-4a34-97ae-2bf688bb144d",
             "Value": {
                 "id": "a7af606f-935c-4fcf-a031-24f7b83cacf7",
@@ -267,14 +275,6 @@
             "Value": {
                 "id": "7e1c34c6-ec05-4e34-b75f-f93027b76d36",
                 "resourcePath": "sprites\/spr_player_idlel\/spr_player_idlel.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "6c8b41ca-43c2-4250-b34d-b6682596b90e",
-            "Value": {
-                "id": "abdc47e7-a765-4b0b-a872-568e7b8adeb6",
-                "resourcePath": "sprites\\spr_enemy_walk\\spr_enemy_walk.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -492,6 +492,14 @@
                 "id": "c9ea966e-150c-48d0-b80d-753cde1921f8",
                 "resourcePath": "objects\/obj_speedUp\/obj_speedUp.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "cbfec3d9-61db-4adc-8e53-498ab4fac283",
+            "Value": {
+                "id": "1bc3f5b9-43d0-4dd8-af33-7c496ee09033",
+                "resourcePath": "sprites\\spr_enemy_walk\\spr_enemy_walk.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
