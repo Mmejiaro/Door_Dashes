@@ -39,14 +39,6 @@
             }
         },
         {
-            "Key": "04d23248-ff0d-44d6-a9b5-e355f6d9d09f",
-            "Value": {
-                "id": "88ca3f9c-7218-4b1a-b515-35325f8bb23d",
-                "resourcePath": "sprites\\spr_player_idlel\\spr_player_idlel.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "057924a7-48f5-4f49-8fcf-1bd65c71f3a0",
             "Value": {
                 "id": "f685d2ad-e35a-43a3-9d1e-1ce1905d2a7e",
@@ -79,14 +71,6 @@
             }
         },
         {
-            "Key": "1a4f727a-332e-4cd2-b63e-a4c7afd55b67",
-            "Value": {
-                "id": "1add971d-d6c8-49ef-b923-7797a5c97a7c",
-                "resourcePath": "sprites\\spr_player_runl\\spr_player_runl.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "1d4f7748-edc5-4ed1-b664-60f447317bea",
             "Value": {
                 "id": "76bb1104-770b-40c3-aace-5668e64ad891",
@@ -103,35 +87,11 @@
             }
         },
         {
-            "Key": "1f9bdb1d-9c71-4e48-9547-66d9f79907d2",
-            "Value": {
-                "id": "6489aeac-b9fb-449e-904b-5f80dc9b0ed9",
-                "resourcePath": "sprites\\spr_player_idler\\spr_player_idler.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "2a06f2d3-73fb-4339-9f34-703518264372",
-            "Value": {
-                "id": "5926e2d5-536d-454e-bb86-450f1aa24193",
-                "resourcePath": "sprites\\spr_player_attackl\\spr_player_attackl.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "2a793985-2abc-4cd2-9409-889229b2cf4c",
             "Value": {
                 "id": "2996c8d5-a5c0-4761-82d2-4bff5de74a03",
                 "resourcePath": "scripts\\breathing\\breathing.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "2b283e46-dca3-427d-be39-aebbb93dbb27",
-            "Value": {
-                "id": "c043e774-ed7b-4baa-9d0a-bd9d9ebbc568",
-                "resourcePath": "sprites\/spr_player_attack\/spr_player_attack.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -175,9 +135,9 @@
             }
         },
         {
-            "Key": "32105f20-4dfd-4996-9bbe-70836f9203d7",
+            "Key": "309e1b9b-ed53-4997-a463-930423ab44a5",
             "Value": {
-                "id": "9b9b9e05-0096-4683-b5f4-b66a03c8698d",
+                "id": "065d5dea-b923-4f22-b4a9-a5d7b6119173",
                 "resourcePath": "sprites\\spr_player_attackr\\spr_player_attackr.yy",
                 "resourceType": "GMSprite"
             }
@@ -303,6 +263,14 @@
             }
         },
         {
+            "Key": "67496f1f-72f9-411d-b320-dc0fda203945",
+            "Value": {
+                "id": "7e1c34c6-ec05-4e34-b75f-f93027b76d36",
+                "resourcePath": "sprites\\spr_player_idlel\\spr_player_idlel.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "737aa254-a6df-46ed-bf74-b0d53749fdc1",
             "Value": {
                 "id": "5942efb4-70c9-4d43-ac20-67146e31c0b3",
@@ -340,6 +308,22 @@
                 "id": "9d29f15d-0fa3-44ae-91e9-c7cb39819890",
                 "resourcePath": "scripts\\frog_animation\\frog_animation.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "7db086c4-5711-42ae-a270-6e91bb94edf9",
+            "Value": {
+                "id": "bc35c7ea-8657-4b6b-93b8-d7cc01a151e8",
+                "resourcePath": "sprites\\spr_player_attackl\\spr_player_attackl.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "7e2d7af2-3b94-4380-a685-6d80e43c7cd5",
+            "Value": {
+                "id": "153b01c1-70ad-4c53-9e9e-aeb8bf25f8b0",
+                "resourcePath": "sprites\\spr_player_runl\\spr_player_runl.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -404,6 +388,14 @@
                 "id": "f4083a7a-4099-4c74-9589-a127c3a3e2ff",
                 "resourcePath": "views\\93024381-4978-452e-9d2c-8b4a17f32d7b.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "977be0d0-5423-460c-9745-87ddf9848f72",
+            "Value": {
+                "id": "c1f5333c-3b76-4666-915b-b8bdb9a86aa1",
+                "resourcePath": "sprites\\spr_player_idler\\spr_player_idler.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
