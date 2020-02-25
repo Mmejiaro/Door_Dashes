@@ -16,3 +16,20 @@ hearts = 3;
 maxAttsp = 4;
 //speed in which the player can swing their sword
 attsp = 10;
+invin = false;
+
+enum states{
+	runR,
+	runL,
+	idlel,
+	idler,
+	jump,
+	attackr,
+	attackl
+}
+state = states.idler;
+enum dir{
+	left,
+	right
+}
+direct = dir.right;
