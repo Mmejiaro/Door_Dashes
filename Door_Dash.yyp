@@ -71,6 +71,22 @@
             }
         },
         {
+            "Key": "1592d24f-757a-4e67-b248-dd9f38eb4e07",
+            "Value": {
+                "id": "cc1abbde-65fa-4248-baa0-4baf15826da9",
+                "resourcePath": "scripts\\zombie_idle_state\\zombie_idle_state.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "183a2b00-1f94-4dd3-b7ee-5c2be20a0a2d",
+            "Value": {
+                "id": "413c1b7e-3485-41f9-b264-d25ab8a0e39c",
+                "resourcePath": "views\\183a2b00-1f94-4dd3-b7ee-5c2be20a0a2d.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "183fbf85-b0fa-4468-827a-ea615d1b8646",
             "Value": {
                 "id": "3e216888-a176-422e-bc65-9bbe85b08f90",
@@ -447,6 +463,14 @@
             }
         },
         {
+            "Key": "9b6f8999-3c61-47e0-af85-c8db90d53248",
+            "Value": {
+                "id": "0d79f9d5-4e88-4b2f-81fc-f7d069c5e5ee",
+                "resourcePath": "scripts\\zombie_walk_state\\zombie_walk_state.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "a06d646f-0d34-4c61-91f7-2d1d6f066d7e",
             "Value": {
                 "id": "9bc4f6db-9f97-46f4-8d7c-f1cbedd43ad7",
@@ -498,7 +522,7 @@
             "Key": "b3089a51-9eeb-4220-a8c6-9d251882771a",
             "Value": {
                 "id": "dbbb58de-9058-4710-8723-a59714b648fa",
-                "resourcePath": "sprites\/spr_enemy_idle\/spr_enemy_idle.yy",
+                "resourcePath": "sprites\\spr_zombie_idle\\spr_zombie_idle.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -522,7 +546,7 @@
             "Key": "cbfec3d9-61db-4adc-8e53-498ab4fac283",
             "Value": {
                 "id": "1bc3f5b9-43d0-4dd8-af33-7c496ee09033",
-                "resourcePath": "sprites\/spr_enemy_walk\/spr_enemy_walk.yy",
+                "resourcePath": "sprites\\spr_zombie_walk\\spr_zombie_walk.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -691,7 +715,9 @@
         "7ab6a1ed-76bb-4f54-8a1c-abc2978b6ef5",
         "55cd4b8e-42c0-45a2-a2a4-a7bd1bad83b6",
         "84392c4a-6c82-4141-b9fe-ece78425f737",
-        "2a793985-2abc-4cd2-9409-889229b2cf4c"
+        "2a793985-2abc-4cd2-9409-889229b2cf4c",
+        "1592d24f-757a-4e67-b248-dd9f38eb4e07",
+        "9b6f8999-3c61-47e0-af85-c8db90d53248"
     ],
     "tutorial": ""
 }
