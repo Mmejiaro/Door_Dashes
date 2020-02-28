@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "0a29612d-b699-4638-98e8-f9dec7b3b9c4",
+            "Value": {
+                "id": "ef05e71f-dcfe-456c-a3ed-50f3adc436da",
+                "resourcePath": "sprites\\spr_boss_idle\\spr_boss_idle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0d06357b-7dbb-456c-8d65-314761b694f0",
             "Value": {
                 "id": "08555f44-c02f-425a-a2f5-a6c9c1a41c47",
@@ -407,6 +415,14 @@
             }
         },
         {
+            "Key": "7c76d0a8-a660-4eb7-96cb-9cbea854d2c4",
+            "Value": {
+                "id": "cf79f6ae-efe4-42ee-9753-880a4d8a5b5b",
+                "resourcePath": "sprites\\spr_boss_attack\\spr_boss_attack.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7db086c4-5711-42ae-a270-6e91bb94edf9",
             "Value": {
                 "id": "bc35c7ea-8657-4b6b-93b8-d7cc01a151e8",
@@ -483,6 +499,14 @@
             "Value": {
                 "id": "f4083a7a-4099-4c74-9589-a127c3a3e2ff",
                 "resourcePath": "views\/93024381-4978-452e-9d2c-8b4a17f32d7b.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "9433ad1f-4c61-47bc-b7b5-3b972451c243",
+            "Value": {
+                "id": "d8547c1b-c6f3-466d-b6b3-96bf7075e9cf",
+                "resourcePath": "views\\9433ad1f-4c61-47bc-b7b5-3b972451c243.yy",
                 "resourceType": "GMFolder"
             }
         },
