@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "29c74a36-df6e-4ab5-8f2e-9c484ab2b535",
+            "Value": {
+                "id": "7f1deb9b-5297-4d9c-afba-c8471be3719c",
+                "resourcePath": "views\\29c74a36-df6e-4ab5-8f2e-9c484ab2b535.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "2a793985-2abc-4cd2-9409-889229b2cf4c",
             "Value": {
                 "id": "2996c8d5-a5c0-4761-82d2-4bff5de74a03",
@@ -135,6 +143,14 @@
             }
         },
         {
+            "Key": "2d3d7ff3-f441-4f79-8251-af5e5a721ae0",
+            "Value": {
+                "id": "e06ed89d-5faa-4370-87ff-fa08e0d7f9f3",
+                "resourcePath": "scripts\\zombie_animation\\zombie_animation.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "2e06fcca-a23a-4dbe-a042-c43a11a4ef8e",
             "Value": {
                 "id": "83a962c2-7bf1-4ab5-b996-d4a35d44ea06",
@@ -156,6 +172,14 @@
                 "id": "26835cf3-ccde-4185-83ab-342ff7c44d52",
                 "resourcePath": "objects\/obj_healthPickup\/obj_healthPickup.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "303bcc2c-508a-4de5-9c79-77cf8364b268",
+            "Value": {
+                "id": "7f5738e3-c477-40aa-bb88-5fa735e54fef",
+                "resourcePath": "sprites\\spr_zombie_walk\\spr_zombie_walk.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -204,6 +228,14 @@
                 "id": "23e18074-9d58-45e6-8953-722030ba99a2",
                 "resourcePath": "sprites\/spr_player_dead\/spr_player_dead.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3cb63dfc-7fc5-425d-8fce-38b63425ec0e",
+            "Value": {
+                "id": "0c5b66c7-a4a0-4bf1-b1d1-5f6aa34f06c6",
+                "resourcePath": "scripts\\bat_idle_state\\bat_idle_state.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -316,6 +348,14 @@
                 "id": "341d0015-5982-49eb-9606-56ea01fcade1",
                 "resourcePath": "datafiles_yy\/breathing\/breathing.gml.yy",
                 "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "755baa36-1b6d-4dc5-974c-4f79946c686c",
+            "Value": {
+                "id": "430ff944-3134-451a-9d00-430d0494234c",
+                "resourcePath": "sprites\\spr_zombie_idle\\spr_zombie_idle.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -495,6 +535,14 @@
             }
         },
         {
+            "Key": "aa37fdf2-791e-4224-adde-ffeb0361c5a6",
+            "Value": {
+                "id": "4ae40b41-be7e-46c7-a3e0-6a06ddf4f43b",
+                "resourcePath": "scripts\\bat_animation\\bat_animation.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "ab895aa2-a45a-4027-80bb-ae670f7361af",
             "Value": {
                 "id": "c88c6f34-18b5-4c94-89f9-29fb169d3f2e",
@@ -519,11 +567,11 @@
             }
         },
         {
-            "Key": "b3089a51-9eeb-4220-a8c6-9d251882771a",
+            "Key": "b5034db8-218c-4a83-a8aa-402bb21d6b36",
             "Value": {
-                "id": "dbbb58de-9058-4710-8723-a59714b648fa",
-                "resourcePath": "sprites\\spr_zombie_idle\\spr_zombie_idle.yy",
-                "resourceType": "GMSprite"
+                "id": "fdab89c7-bb84-4465-868e-6d07974c05d8",
+                "resourcePath": "objects\\obj_bat\\obj_bat.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -543,19 +591,19 @@
             }
         },
         {
-            "Key": "cbfec3d9-61db-4adc-8e53-498ab4fac283",
-            "Value": {
-                "id": "1bc3f5b9-43d0-4dd8-af33-7c496ee09033",
-                "resourcePath": "sprites\\spr_zombie_walk\\spr_zombie_walk.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "cb5dc213-2cb6-4499-950a-608e20d7f001",
                 "resourcePath": "options\/windows\/options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "ceced3da-d9d3-4cc0-adf8-282f7399f553",
+            "Value": {
+                "id": "a61bfe38-c8dc-4231-963d-54f35121e9c1",
+                "resourcePath": "sprites\\spr_bat\\spr_bat.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -717,7 +765,10 @@
         "84392c4a-6c82-4141-b9fe-ece78425f737",
         "2a793985-2abc-4cd2-9409-889229b2cf4c",
         "1592d24f-757a-4e67-b248-dd9f38eb4e07",
-        "9b6f8999-3c61-47e0-af85-c8db90d53248"
+        "9b6f8999-3c61-47e0-af85-c8db90d53248",
+        "2d3d7ff3-f441-4f79-8251-af5e5a721ae0",
+        "aa37fdf2-791e-4224-adde-ffeb0361c5a6",
+        "3cb63dfc-7fc5-425d-8fce-38b63425ec0e"
     ],
     "tutorial": ""
 }

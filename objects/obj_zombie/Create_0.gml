@@ -10,6 +10,13 @@ hspeed = 0;
 /// @DnDArgument : "instvar" "5"
 vspeed = 0;
 
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 3B0EAB98
+/// @DnDArgument : "expr" "choose(-1, 1)"
+/// @DnDArgument : "var" "facing"
+facing = choose(-1, 1);
+
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 762BD118

@@ -11,6 +11,13 @@ breathing();
 /// @DnDArgument : "value" "40"
 var scan_for_player = 40;
 
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 130F064F
+/// @DnDArgument : "expr" "sign(obj_player.x - x)"
+/// @DnDArgument : "var" "facing"
+facing = sign(obj_player.x - x);
+
 /// @DnDAction : YoYo Games.Common.If_Expression
 /// @DnDVersion : 1
 /// @DnDHash : 647A4C2D
