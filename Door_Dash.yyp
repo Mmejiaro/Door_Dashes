@@ -42,7 +42,7 @@
             "Key": "04f5cd07-8007-4e74-b05f-b662cc94a052",
             "Value": {
                 "id": "ff59196e-2de3-4e99-a82d-6f2bf49599ef",
-                "resourcePath": "sprites\\spr_door\\spr_door.yy",
+                "resourcePath": "sprites\/spr_door\/spr_door.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -82,7 +82,7 @@
             "Key": "1592d24f-757a-4e67-b248-dd9f38eb4e07",
             "Value": {
                 "id": "cc1abbde-65fa-4248-baa0-4baf15826da9",
-                "resourcePath": "scripts\\zombie_idle_state\\zombie_idle_state.yy",
+                "resourcePath": "scripts\/zombie_idle_state\/zombie_idle_state.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -90,7 +90,7 @@
             "Key": "183a2b00-1f94-4dd3-b7ee-5c2be20a0a2d",
             "Value": {
                 "id": "413c1b7e-3485-41f9-b264-d25ab8a0e39c",
-                "resourcePath": "views\\183a2b00-1f94-4dd3-b7ee-5c2be20a0a2d.yy",
+                "resourcePath": "views\/183a2b00-1f94-4dd3-b7ee-5c2be20a0a2d.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -122,7 +122,7 @@
             "Key": "29c74a36-df6e-4ab5-8f2e-9c484ab2b535",
             "Value": {
                 "id": "7f1deb9b-5297-4d9c-afba-c8471be3719c",
-                "resourcePath": "views\\29c74a36-df6e-4ab5-8f2e-9c484ab2b535.yy",
+                "resourcePath": "views\/29c74a36-df6e-4ab5-8f2e-9c484ab2b535.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -154,7 +154,7 @@
             "Key": "2d3d7ff3-f441-4f79-8251-af5e5a721ae0",
             "Value": {
                 "id": "e06ed89d-5faa-4370-87ff-fa08e0d7f9f3",
-                "resourcePath": "scripts\\zombie_animation\\zombie_animation.yy",
+                "resourcePath": "scripts\/zombie_animation\/zombie_animation.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -186,7 +186,7 @@
             "Key": "303bcc2c-508a-4de5-9c79-77cf8364b268",
             "Value": {
                 "id": "7f5738e3-c477-40aa-bb88-5fa735e54fef",
-                "resourcePath": "sprites\\spr_zombie_walk\\spr_zombie_walk.yy",
+                "resourcePath": "sprites\/spr_zombie_walk\/spr_zombie_walk.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -242,7 +242,7 @@
             "Key": "3cb63dfc-7fc5-425d-8fce-38b63425ec0e",
             "Value": {
                 "id": "0c5b66c7-a4a0-4bf1-b1d1-5f6aa34f06c6",
-                "resourcePath": "scripts\\bat_idle_state\\bat_idle_state.yy",
+                "resourcePath": "scripts\/bat_idle_state\/bat_idle_state.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -250,7 +250,7 @@
             "Key": "44b3ebef-9ad6-4326-95ac-e6d904f73665",
             "Value": {
                 "id": "157c0c89-52cf-4ed3-ab03-2dce19591804",
-                "resourcePath": "objects\\obj_door\\obj_door.yy",
+                "resourcePath": "objects\/obj_door\/obj_door.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -370,7 +370,7 @@
             "Key": "755baa36-1b6d-4dc5-974c-4f79946c686c",
             "Value": {
                 "id": "430ff944-3134-451a-9d00-430d0494234c",
-                "resourcePath": "sprites\\spr_zombie_idle\\spr_zombie_idle.yy",
+                "resourcePath": "sprites\/spr_zombie_idle\/spr_zombie_idle.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -522,7 +522,7 @@
             "Key": "9b6f8999-3c61-47e0-af85-c8db90d53248",
             "Value": {
                 "id": "0d79f9d5-4e88-4b2f-81fc-f7d069c5e5ee",
-                "resourcePath": "scripts\\zombie_walk_state\\zombie_walk_state.yy",
+                "resourcePath": "scripts\/zombie_walk_state\/zombie_walk_state.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -531,6 +531,14 @@
             "Value": {
                 "id": "9bc4f6db-9f97-46f4-8d7c-f1cbedd43ad7",
                 "resourcePath": "rooms\/ShopRoom\/ShopRoom.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "a14efd5d-f21a-4192-a9ef-20a46a603166",
+            "Value": {
+                "id": "f79abe0b-f0a5-4c0a-a93e-f6055fb4b982",
+                "resourcePath": "rooms\/BossRoom\/BossRoom.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -554,7 +562,7 @@
             "Key": "aa37fdf2-791e-4224-adde-ffeb0361c5a6",
             "Value": {
                 "id": "4ae40b41-be7e-46c7-a3e0-6a06ddf4f43b",
-                "resourcePath": "scripts\\bat_animation\\bat_animation.yy",
+                "resourcePath": "scripts\/bat_animation\/bat_animation.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -586,7 +594,7 @@
             "Key": "b5034db8-218c-4a83-a8aa-402bb21d6b36",
             "Value": {
                 "id": "fdab89c7-bb84-4465-868e-6d07974c05d8",
-                "resourcePath": "objects\\obj_bat\\obj_bat.yy",
+                "resourcePath": "objects\/obj_bat\/obj_bat.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -618,7 +626,7 @@
             "Key": "ceced3da-d9d3-4cc0-adf8-282f7399f553",
             "Value": {
                 "id": "a61bfe38-c8dc-4231-963d-54f35121e9c1",
-                "resourcePath": "sprites\\spr_bat\\spr_bat.yy",
+                "resourcePath": "sprites\/spr_bat\/spr_bat.yy",
                 "resourceType": "GMSprite"
             }
         },
