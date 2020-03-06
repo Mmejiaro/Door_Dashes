@@ -96,3 +96,57 @@ if(place_meeting(x,y+vsp,obj_block))
 }
 y = y + vsp;
 
+
+//// this is for the obj_block2_right blocks with smaller sprites. It is the same exact code as above
+//if(place_meeting(x,y+1,obj_block2_right)) && (key_up)
+//{
+//	vsp = -9
+//}
+
+//if(place_meeting(x+hsp,y,obj_block2_right)) 
+//{
+//	//this basically allows the player to move away from the wall
+//	while(!place_meeting(x+sign(hsp),y,obj_block2_right)) 
+//	{
+//			x = x + sign(hsp);
+//	}
+//	hsp = 0;
+//}
+//x = x + hsp
+
+//if(place_meeting(x,y+vsp,obj_block2_right)) 
+//{
+//	while(!place_meeting(x,y+sign(vsp),obj_block2_right))
+//	{
+//		y = y + sign(vsp);
+//	}
+//	vsp = 0;
+//}
+//y = y + vsp;
+
+//// This is for the obj_block3_left blocks with smaller sprites. It is the same exact code as above
+//if(place_meeting(x,y+1,obj_block3_left)) && (key_up)
+//{
+//	vsp = -9
+//}
+
+//if(place_meeting(x+hsp,y,obj_block3_left)) 
+//{
+//	//this basically allows the player to move away from the wall
+//	while(!place_meeting(x+sign(hsp),y,obj_block3_left)) 
+//	{
+//			x = x + sign(hsp);
+//	}
+//	hsp = 0;
+//}
+//x = x + hsp
+
+//if(place_meeting(x,y+vsp,obj_block3_left)) 
+//{
+//	while(!place_meeting(x,y+sign(vsp),obj_block3_left))
+//	{
+//		y = y + sign(vsp);
+//	}
+//	vsp = 0;
+//}
+//y = y + vsp;
