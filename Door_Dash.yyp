@@ -247,6 +247,14 @@
             }
         },
         {
+            "Key": "3c75b9e4-ccc2-42e9-8dc6-1f828709a7e5",
+            "Value": {
+                "id": "688d0441-43e3-4ef9-b665-89562d9c9773",
+                "resourcePath": "scripts\\bat_attack_state\\bat_attack_state.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "3cb63dfc-7fc5-425d-8fce-38b63425ec0e",
             "Value": {
                 "id": "0c5b66c7-a4a0-4bf1-b1d1-5f6aa34f06c6",
@@ -832,7 +840,8 @@
         "9b6f8999-3c61-47e0-af85-c8db90d53248",
         "2d3d7ff3-f441-4f79-8251-af5e5a721ae0",
         "aa37fdf2-791e-4224-adde-ffeb0361c5a6",
-        "3cb63dfc-7fc5-425d-8fce-38b63425ec0e"
+        "3cb63dfc-7fc5-425d-8fce-38b63425ec0e",
+        "3c75b9e4-ccc2-42e9-8dc6-1f828709a7e5"
     ],
     "tutorial": ""
 }
