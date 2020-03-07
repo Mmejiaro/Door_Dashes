@@ -279,6 +279,14 @@
             }
         },
         {
+            "Key": "3c74e042-6be8-4788-bd2f-51d929b7c2a4",
+            "Value": {
+                "id": "cf8df48c-3eaa-4dc3-8479-5dcfa3b1b848",
+                "resourcePath": "rooms\/room6\/room6.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "3c75b9e4-ccc2-42e9-8dc6-1f828709a7e5",
             "Value": {
                 "id": "688d0441-43e3-4ef9-b665-89562d9c9773",
@@ -300,6 +308,14 @@
                 "id": "86803158-0e18-4ea1-9a5e-fc495eba69ba",
                 "resourcePath": "objects\/obj_door_red\/obj_door_red.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "426d804a-2699-40ed-a973-34355b377238",
+            "Value": {
+                "id": "4069c765-15c9-4710-b4b4-8b0ddd037820",
+                "resourcePath": "tilesets\/tileset2\/tileset2.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
@@ -331,6 +347,14 @@
             "Value": {
                 "id": "7caa4a52-a779-44ee-b115-dadc70311aa7",
                 "resourcePath": "sprites\/spr_attackSpeed\/spr_attackSpeed.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4df2cd53-37e5-4c09-a1e2-498a45e01ef1",
+            "Value": {
+                "id": "d534dc9c-371c-43bf-8006-edcad32af739",
+                "resourcePath": "sprites\/spr_tileset3\/spr_tileset3.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -671,6 +695,14 @@
             }
         },
         {
+            "Key": "add76d80-8835-4705-93d0-58e4a917a58b",
+            "Value": {
+                "id": "f11021fa-a43b-485b-9055-735799069664",
+                "resourcePath": "tilesets\/tileset1\/tileset1.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "b1aea489-7fd4-4822-be7d-89debcb77e42",
             "Value": {
                 "id": "ac1d8eff-a2cd-4b78-a4d7-7876adc2b6f9",
@@ -708,6 +740,14 @@
                 "id": "07df4ac4-9630-45ad-b4c4-586c7dfd6f36",
                 "resourcePath": "objects\/obj_death\/obj_death.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c07c3482-231a-464f-bc40-e7f575373326",
+            "Value": {
+                "id": "e72209c1-72f6-4a75-a7be-31e866740d22",
+                "resourcePath": "sprites\/spr_tileset2\/spr_tileset2.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
