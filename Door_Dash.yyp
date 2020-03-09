@@ -175,6 +175,22 @@
             }
         },
         {
+            "Key": "2c7179c2-6183-4ecf-b03e-d33ba274b2ed",
+            "Value": {
+                "id": "a6f350c3-6970-4562-973f-1a22446994fb",
+                "resourcePath": "rooms\/BluePath\/BluePath.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "2ca1549d-8617-425b-b992-52899a2bc41e",
+            "Value": {
+                "id": "395426ba-79ff-4878-a0fa-632674421d95",
+                "resourcePath": "rooms\/GreenPath\/GreenPath.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "2ccc4efa-414b-465c-8462-31566b262ee3",
             "Value": {
                 "id": "f4981d9d-f515-4583-91da-f5fe0c851b52",
