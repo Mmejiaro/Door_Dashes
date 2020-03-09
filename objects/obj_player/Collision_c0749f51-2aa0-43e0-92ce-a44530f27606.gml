@@ -175,6 +175,78 @@ if (l2B5B8E27_0)
 
 	/// @DnDAction : YoYo Games.Common.If_Expression
 	/// @DnDVersion : 1
+	/// @DnDHash : 2793DEA6
+	/// @DnDParent : 2B5B8E27
+	/// @DnDArgument : "expr" "other.torch_color == "green" && other.torch_number == 2 && other.go_back == 1"
+	if(other.torch_color == "green" && other.torch_number == 2 && other.go_back == 1)
+	{
+		/// @DnDAction : YoYo Games.Rooms.Go_To_Room
+		/// @DnDVersion : 1
+		/// @DnDHash : 72621935
+		/// @DnDParent : 2793DEA6
+		/// @DnDArgument : "room" "Level2RD"
+		/// @DnDSaveInfo : "room" "804b3e08-b052-43e2-af68-891a1bc95a0d"
+		room_goto(Level2RD);
+	
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 2D19561E
+		/// @DnDApplyTo : fca0451d-2b9b-4ae2-8f17-0b657206af2d
+		/// @DnDParent : 2793DEA6
+		/// @DnDArgument : "expr" "928"
+		/// @DnDArgument : "var" "x"
+		with(obj_player) {
+		x = 928;
+		
+		}
+	
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 6BDB4CB2
+		/// @DnDApplyTo : fca0451d-2b9b-4ae2-8f17-0b657206af2d
+		/// @DnDParent : 2793DEA6
+		/// @DnDArgument : "expr" "640"
+		/// @DnDArgument : "var" "y"
+		with(obj_player) {
+		y = 640;
+		
+		}
+	}
+
+	/// @DnDAction : YoYo Games.Common.If_Expression
+	/// @DnDVersion : 1
+	/// @DnDHash : 79DD4C91
+	/// @DnDParent : 2B5B8E27
+	/// @DnDArgument : "expr" "other.torch_color == "green" && other.torch_number == 1 && other.go_back == 1"
+	if(other.torch_color == "green" && other.torch_number == 1 && other.go_back == 1)
+	{
+		/// @DnDAction : YoYo Games.Rooms.Go_To_Room
+		/// @DnDVersion : 1
+		/// @DnDHash : 74955DC1
+		/// @DnDParent : 79DD4C91
+		/// @DnDArgument : "room" "Level1RD"
+		/// @DnDSaveInfo : "room" "3c74e042-6be8-4788-bd2f-51d929b7c2a4"
+		room_goto(Level1RD);
+	
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 7893DC7A
+		/// @DnDParent : 79DD4C91
+		/// @DnDArgument : "expr" "64"
+		/// @DnDArgument : "var" "x"
+		x = 64;
+	
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 5C6722B0
+		/// @DnDParent : 79DD4C91
+		/// @DnDArgument : "expr" "96"
+		/// @DnDArgument : "var" "y"
+		y = 96;
+	}
+
+	/// @DnDAction : YoYo Games.Common.If_Expression
+	/// @DnDVersion : 1
 	/// @DnDHash : 7CB10337
 	/// @DnDParent : 2B5B8E27
 	/// @DnDArgument : "expr" "other.torch_color == "blue" && other.torch_number == 1"
