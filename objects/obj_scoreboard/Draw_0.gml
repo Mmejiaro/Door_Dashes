@@ -13,4 +13,5 @@ if(instance_exists(obj_player)){
 	//else{
 		//draw_text(x, y + 40, string("Gold: ") + string(obj_player.runGold));
 	//}
+	audio_play_sound(sound0, 1, true)
 }

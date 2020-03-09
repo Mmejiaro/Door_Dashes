@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "134a5395-fdfc-43f5-be6d-013dcb204f4a",
+            "Value": {
+                "id": "5288aa0f-7818-4e6b-9f8e-ae01ac04e848",
+                "resourcePath": "sounds\\sound0\\sound0.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "1350dce4-1a8e-490b-9dc2-c3b2621278d8",
             "Value": {
                 "id": "cb69ecef-bddd-4f3b-82aa-faf37cf100b0",
