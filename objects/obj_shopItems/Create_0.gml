@@ -5,18 +5,16 @@
 
 for(var i = 0; i < 3; i++)
 {
-	randomize()
-	ran = floor(random_range(0, 2 + 1))
-	if ran == 0
+	if i == 0
 	{
-		instance_create_layer(xstart+(70*i),ystart,"instances",obj_healthPowerup)
+		instance_create_layer(xstart+(70*i),ystart,"instances", obj_healthPowerup)
 	}
-	else if ran == 1
-	{
-		instance_create_layer(xstart+(70*i),ystart,"instances",obj_attackSpeedUp)
-	}
-	else if ran == 2
+	else if i == 1
 	{
 		instance_create_layer(xstart+(70*i),ystart,"instances",obj_speedUp)
+	}
+	else if i == 2
+	{
+		instance_create_layer(xstart+(70*i),ystart,"instances",obj_dmgUp)
 	}
 }

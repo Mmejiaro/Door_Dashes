@@ -1,3 +1,10 @@
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 18C6B647
+/// @DnDArgument : "expr" "2"
+/// @DnDArgument : "var" "froghp"
+froghp = 2;
+
 /// @DnDAction : YoYo Games.Movement.Set_Speed
 /// @DnDVersion : 1
 /// @DnDHash : 3148353D

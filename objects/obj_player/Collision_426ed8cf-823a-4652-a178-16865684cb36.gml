@@ -3,7 +3,16 @@
 //but for now we can just destroy the enemy object
 //basically if the player is swinging his sword then he will kill the enemy
 if(state == states.attackl or state == states.attackr){
-	with(other) instance_destroy();
+	if(frogInvin == false){
+		other.froghp = other.froghp - dmg
+		if (other.froghp == 0){
+			with(other) instance_destroy();
+			totalGold = totalGold + 8;
+		}
+		frogInvin = true
+		alarm_set(1,50);
+	}
+	
 }
 //if we are not in the attack state we take damage
 //it would be bad if we lost all our hearts at once so i implemented an invincibility timer.

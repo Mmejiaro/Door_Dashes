@@ -17,6 +17,9 @@ maxAttsp = 4;
 //speed in which the player can swing their sword
 attsp = 10;
 invin = false;
+dmg = 1;
+frogInvin = false;
+zombieInvin = false;
 
 enum states{
 	runR,
@@ -25,11 +28,8 @@ enum states{
 	idler,
 	jump,
 	attackr,
-	attackl
+	attackl,
+	dyingl,
+	dyingr
 }
 state = states.idler;
-enum dir{
-	left,
-	right
-}
-direct = dir.right;

@@ -9,6 +9,10 @@ key_right = keyboard_check(vk_right);
 key_up = keyboard_check_pressed(vk_up);
 key_space = keyboard_check_pressed(vk_space);
 
+if (state == states.dyingl or state == states.dyingr){
+	exit;
+}
+
 //temp variable allowing movement if right is pressed key_right will be one and key_left will be zero
 //adding one to horizontal movement
 var move = key_right - key_left;
@@ -49,12 +53,21 @@ if key_space{
 	if (state == states.idler or state == states.runR){
 		sprite_index = spr_player_attackr
 		state = states.attackr
-		direct = dir.right
 	}
 	else if(state == states.idlel or state == states.runL){
 		sprite_index = spr_player_attackl
 		state = states.attackl
-		direct = dir.left
+	}
+}
+
+if(hearts == 0){
+	if(state == states.idlel or state == states.runL){
+		state = states.dyingl
+		sprite_index = spr_player_deadl
+	}
+	if(state == states.idler or state == states.runR){
+		state = states.dyingr
+		sprite_index = spr_player_deadr
 	}
 }
 

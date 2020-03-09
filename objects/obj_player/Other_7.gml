@@ -8,3 +8,21 @@ if state == states.attackl{
 	state = states.idlel;
 	sprite_index = spr_player_idlel;
 }
+if state == states.dyingl{
+	hearts = 3
+	//totalGold = totalGold + runGold
+	sprite_index = spr_player_idlel;
+	state = states.idlel;
+	room_goto(StartRoom)
+	x = 44;
+	y = 321
+}
+if state == states.dyingr{
+	hearts = 3
+	//totalGold = totalGold + runGold
+	sprite_index = spr_player_idler;	
+	state = states.idler;	
+	room_goto(StartRoom)
+	x = 44;
+	y = 321
+}
