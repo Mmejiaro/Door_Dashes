@@ -13,6 +13,20 @@ if(!(instance_exists(obj_boss)))
 	/// @DnDArgument : "y" "400"
 	/// @DnDArgument : "var" ""Victory!""
 	draw_text(542, 400, string("Caption: ") + string("Victory!"));
+
+	/// @DnDAction : YoYo Games.Common.If_Expression
+	/// @DnDVersion : 1
+	/// @DnDHash : 2AF80B3F
+	/// @DnDParent : 6263D168
+	/// @DnDArgument : "expr" "keyboard_key_press(vk_enter)"
+	if(keyboard_key_press(vk_enter))
+	{
+		/// @DnDAction : YoYo Games.Game.Restart_Game
+		/// @DnDVersion : 1
+		/// @DnDHash : 066E5BB8
+		/// @DnDParent : 2AF80B3F
+		game_restart();
+	}
 }
 
 /// @DnDAction : YoYo Games.Common.If_Expression
@@ -30,4 +44,18 @@ if(!(instance_exists(obj_player)))
 	/// @DnDArgument : "y" "400"
 	/// @DnDArgument : "var" ""Defeat!""
 	draw_text(542, 400, string("Caption: ") + string("Defeat!"));
+
+	/// @DnDAction : YoYo Games.Common.If_Expression
+	/// @DnDVersion : 1
+	/// @DnDHash : 214A3072
+	/// @DnDParent : 04B2E853
+	/// @DnDArgument : "expr" "keyboard_key_press(vk_enter)"
+	if(keyboard_key_press(vk_enter))
+	{
+		/// @DnDAction : YoYo Games.Game.Restart_Game
+		/// @DnDVersion : 1
+		/// @DnDHash : 32C9CFD0
+		/// @DnDParent : 214A3072
+		game_restart();
+	}
 }
