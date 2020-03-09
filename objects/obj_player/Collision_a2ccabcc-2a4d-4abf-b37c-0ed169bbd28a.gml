@@ -4,13 +4,13 @@
 //basically if the player is swinging his sword then he will kill the enemy
 if(state == states.attackl or state == states.attackr){
 	if(zombieInvin == false){
-		other.zomhp = other.zomhp - dmg
-		if (other.zomhp == 0){
+		other.hp = other.hp - dmg
+		if (other.hp == 0){
 			with(other) instance_destroy();
 			totalGold = totalGold + 5;
 		}
 		zombieInvin = true
-		alarm_set(1,50);
+		alarm_set(2,50);
 	}
 	
 }

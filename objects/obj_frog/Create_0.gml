@@ -1,9 +1,16 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 18C6B647
-/// @DnDArgument : "expr" "2"
-/// @DnDArgument : "var" "froghp"
-froghp = 2;
+/// @DnDArgument : "expr" " 100"
+/// @DnDArgument : "var" "maxHP"
+maxHP =  100;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 685096F3
+/// @DnDArgument : "expr" "maxHP"
+/// @DnDArgument : "var" "hp"
+hp = maxHP;
 
 /// @DnDAction : YoYo Games.Movement.Set_Speed
 /// @DnDVersion : 1

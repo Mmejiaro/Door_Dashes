@@ -4,8 +4,8 @@
 //basically if the player is swinging his sword then he will kill the enemy
 if(state == states.attackl or state == states.attackr){
 	if(frogInvin == false){
-		other.froghp = other.froghp - dmg
-		if (other.froghp == 0){
+		other.hp = other.hp - dmg
+		if (other.hp == 0){
 			with(other) instance_destroy();
 			totalGold = totalGold + 8;
 		}

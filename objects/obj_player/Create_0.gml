@@ -17,7 +17,7 @@ maxAttsp = 4;
 //speed in which the player can swing their sword
 attsp = 10;
 invin = false;
-dmg = 1;
+dmg = 50;
 frogInvin = false;
 zombieInvin = false;
 

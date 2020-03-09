@@ -1,9 +1,16 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
-/// @DnDHash : 716C72A6
-/// @DnDArgument : "expr" "3"
-/// @DnDArgument : "var" "zomhp"
-zomhp = 3;
+/// @DnDHash : 656A573D
+/// @DnDArgument : "expr" " 150"
+/// @DnDArgument : "var" "maxHP"
+maxHP =  150;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 6BE2C1E2
+/// @DnDArgument : "expr" "maxHP"
+/// @DnDArgument : "var" "hp"
+hp = maxHP;
 
 /// @DnDAction : YoYo Games.Instances.Set_Instance_Var
 /// @DnDVersion : 1
