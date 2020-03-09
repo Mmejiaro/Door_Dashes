@@ -59,6 +59,20 @@
             "value": "0",
             "varName": "torch_number",
             "varType": 1
+        },
+        {
+            "id": "7b4e9783-00c2-4aa2-a805-bc43f135d254",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "go_back",
+            "varType": 1
         }
     ],
     "solid": false,
