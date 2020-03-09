@@ -543,6 +543,14 @@
             }
         },
         {
+            "Key": "7fd40b6b-0fc8-47a0-b5d3-7e90f1c8b43d",
+            "Value": {
+                "id": "3ff1854c-e5d4-46a3-a236-21cbeafb6191",
+                "resourcePath": "rooms\/PreBossRoom\/PreBossRoom.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "804b3e08-b052-43e2-af68-891a1bc95a0d",
             "Value": {
                 "id": "03e02026-ae49-4f7f-8e30-851cc4110e38",
@@ -748,6 +756,14 @@
                 "id": "9c38e467-41a0-46f3-a5c6-be9fba24b5f3",
                 "resourcePath": "sprites\/spr_player_throw_knife\/spr_player_throw_knife.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b4326d6b-11d2-411c-889c-88b0b7f85f75",
+            "Value": {
+                "id": "828d89a6-e156-4ea0-9ecb-4deed4d96150",
+                "resourcePath": "rooms\/BluePath2\/BluePath2.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
