@@ -55,14 +55,6 @@
             }
         },
         {
-            "Key": "05b884ad-2cd7-43d7-8896-e0a1ebc3159e",
-            "Value": {
-                "id": "360438f7-dc4c-4c00-8fd6-4e7ab67d965f",
-                "resourcePath": "sprites\/spr_door_red\/spr_door_red.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "0a29612d-b699-4638-98e8-f9dec7b3b9c4",
             "Value": {
                 "id": "ef05e71f-dcfe-456c-a3ed-50f3adc436da",
@@ -103,30 +95,6 @@
             }
         },
         {
-            "Key": "1592d24f-757a-4e67-b248-dd9f38eb4e07",
-            "Value": {
-                "id": "cc1abbde-65fa-4248-baa0-4baf15826da9",
-                "resourcePath": "scripts\/zombie_idle_state\/zombie_idle_state.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "16050128-5f91-4ef8-a335-051dc100699b",
-            "Value": {
-                "id": "76173a31-98d5-4a40-9621-46a226a99bfc",
-                "resourcePath": "sprites\/spr_door_green\/spr_door_green.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "183a2b00-1f94-4dd3-b7ee-5c2be20a0a2d",
-            "Value": {
-                "id": "413c1b7e-3485-41f9-b264-d25ab8a0e39c",
-                "resourcePath": "views\/183a2b00-1f94-4dd3-b7ee-5c2be20a0a2d.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "1d4f7748-edc5-4ed1-b664-60f447317bea",
             "Value": {
                 "id": "76bb1104-770b-40c3-aace-5668e64ad891",
@@ -140,14 +108,6 @@
                 "id": "e9800979-3e6c-4528-a078-0ab6e69f02ea",
                 "resourcePath": "views\/1f4bc21d-19d2-42c1-9fd9-78d719e69182.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "25629888-d550-4a20-997a-3950d0bd5a34",
-            "Value": {
-                "id": "da39f53c-3ad3-4d0f-9a40-3920110dc17f",
-                "resourcePath": "sprites\/spr_door_yellow\/spr_door_yellow.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -196,14 +156,6 @@
                 "id": "f4981d9d-f515-4583-91da-f5fe0c851b52",
                 "resourcePath": "sprites\/spr_player_run\/spr_player_run.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "2d3d7ff3-f441-4f79-8251-af5e5a721ae0",
-            "Value": {
-                "id": "e06ed89d-5faa-4370-87ff-fa08e0d7f9f3",
-                "resourcePath": "scripts\/zombie_animation\/zombie_animation.yy",
-                "resourceType": "GMScript"
             }
         },
         {
@@ -348,14 +300,6 @@
                 "id": "0c5b66c7-a4a0-4bf1-b1d1-5f6aa34f06c6",
                 "resourcePath": "scripts\/bat_idle_state\/bat_idle_state.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "3e13c81e-ac34-4f21-bce9-c9b8b1f81938",
-            "Value": {
-                "id": "86803158-0e18-4ea1-9a5e-fc495eba69ba",
-                "resourcePath": "objects\/obj_door_red\/obj_door_red.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -639,14 +583,6 @@
             }
         },
         {
-            "Key": "88624686-39ee-40af-a64c-9d23ca63c7a4",
-            "Value": {
-                "id": "cdb00538-bd0b-4078-b961-ba3293c62667",
-                "resourcePath": "objects\/obj_door_green\/obj_door_green.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "8b0b9262-3f07-4adf-b6ce-62ab2407b4b4",
             "Value": {
                 "id": "6a72d707-5b45-46dc-a6a5-64d73a179dd9",
@@ -719,27 +655,11 @@
             }
         },
         {
-            "Key": "9a5a1ba4-33cf-4dd3-b4ee-9d05e78c76da",
-            "Value": {
-                "id": "bd859253-57b7-4fc6-a5cb-d0179b763b42",
-                "resourcePath": "objects\/obj_door_yellow\/obj_door_yellow.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "9b373077-3aa9-4194-baa2-68c5dd22ae3e",
             "Value": {
                 "id": "800ca627-b698-4944-9087-b4f2f385fb10",
                 "resourcePath": "views\/9b373077-3aa9-4194-baa2-68c5dd22ae3e.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "9b6f8999-3c61-47e0-af85-c8db90d53248",
-            "Value": {
-                "id": "0d79f9d5-4e88-4b2f-81fc-f7d069c5e5ee",
-                "resourcePath": "scripts\/zombie_walk_state\/zombie_walk_state.yy",
-                "resourceType": "GMScript"
             }
         },
         {
@@ -1052,9 +972,6 @@
         "55cd4b8e-42c0-45a2-a2a4-a7bd1bad83b6",
         "84392c4a-6c82-4141-b9fe-ece78425f737",
         "2a793985-2abc-4cd2-9409-889229b2cf4c",
-        "1592d24f-757a-4e67-b248-dd9f38eb4e07",
-        "9b6f8999-3c61-47e0-af85-c8db90d53248",
-        "2d3d7ff3-f441-4f79-8251-af5e5a721ae0",
         "aa37fdf2-791e-4224-adde-ffeb0361c5a6",
         "3cb63dfc-7fc5-425d-8fce-38b63425ec0e",
         "3c75b9e4-ccc2-42e9-8dc6-1f828709a7e5"
