@@ -1,9 +1,9 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 656A573D
-/// @DnDArgument : "expr" " 150"
+/// @DnDArgument : "expr" " 100"
 /// @DnDArgument : "var" "maxHP"
-maxHP =  150;
+maxHP =  100;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
