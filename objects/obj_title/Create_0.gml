@@ -14,12 +14,6 @@
 /// @DnDArgument : "alpha" "false"
 
 
-/// @DnDAction : YoYo Games.Drawing.Set_Color
-/// @DnDVersion : 1
-/// @DnDHash : 3E35CB3E
-/// @DnDArgument : "alpha" "false"
-draw_set_colour($FFFFFFFF & $ffffff);
-
 /// @DnDAction : YoYo Games.Common.If_Expression
 /// @DnDVersion : 1
 /// @DnDHash : 78956D3B
