@@ -14,6 +14,15 @@ if(!(instance_exists(obj_boss)))
 	/// @DnDArgument : "var" ""Victory!""
 	draw_text(542, 400, string("Caption: ") + string("Victory!"));
 
+	/// @DnDAction : YoYo Games.Drawing.Draw_Value
+	/// @DnDVersion : 1
+	/// @DnDHash : 602627E0
+	/// @DnDParent : 6263D168
+	/// @DnDArgument : "x" "542"
+	/// @DnDArgument : "y" "275"
+	/// @DnDArgument : "caption" ""Press Enter to Restart ""
+	draw_text(542, 275, string("Press Enter to Restart ") + "");
+
 	/// @DnDAction : YoYo Games.Common.If_Expression
 	/// @DnDVersion : 1
 	/// @DnDHash : 2AF80B3F
@@ -44,6 +53,15 @@ if(!(instance_exists(obj_player)))
 	/// @DnDArgument : "y" "400"
 	/// @DnDArgument : "var" ""Defeat!""
 	draw_text(542, 400, string("Caption: ") + string("Defeat!"));
+
+	/// @DnDAction : YoYo Games.Drawing.Draw_Value
+	/// @DnDVersion : 1
+	/// @DnDHash : 5BB12A06
+	/// @DnDParent : 04B2E853
+	/// @DnDArgument : "x" "542"
+	/// @DnDArgument : "y" "275"
+	/// @DnDArgument : "caption" ""Press Enter to Restart ""
+	draw_text(542, 275, string("Press Enter to Restart ") + "");
 
 	/// @DnDAction : YoYo Games.Common.If_Expression
 	/// @DnDVersion : 1
