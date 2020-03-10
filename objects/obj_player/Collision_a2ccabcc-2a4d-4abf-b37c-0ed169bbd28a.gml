@@ -5,7 +5,7 @@
 if(state == states.attackl or state == states.attackr){
 	if(zombieInvin == false){
 		other.hp = other.hp - dmg
-		if (other.hp == 0){
+		if (other.hp <= 0){
 			with(other) instance_destroy();
 			totalGold = totalGold + 5;
 		}

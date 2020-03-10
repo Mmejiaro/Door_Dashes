@@ -1,7 +1,3 @@
-//lots of stuff I wanna do here. So if the room is 0 (shop room) allow
-// the player to press E to buy something and subtract the cost of that item.
-// we can just baseline the prices for now
-//if the plyayer dies we want to go back to the shop room but loose all the gold we collected that run
 
 //this stuff checks to see if the keyboard buttens are pressed
 key_left = keyboard_check(vk_left);
@@ -9,6 +5,7 @@ key_right = keyboard_check(vk_right);
 key_up = keyboard_check_pressed(vk_up);
 key_space = keyboard_check_pressed(vk_space);
 
+//if the dying animation is active exits the code so the player can't do anything
 if (state == states.dyingl or state == states.dyingr){
 	exit;
 }
@@ -49,10 +46,7 @@ if(key_right and state != states.jump and state != states.attackl and state != s
 	sprite_index = spr_player_runr;
 }
 
-//so this activates the attack sprite when the space bar is pressed.
-//it is a little janky right now. need the character to be in this attack state in
-//order to deal damage to enemies. should be a simple if statement in the enemy collision
-//event.
+//this activates the attack sprite when the space bar is pressed.
 if key_space{
 	if (state == states.idler or state == states.runR){
 		facing = 1;
@@ -65,7 +59,7 @@ if key_space{
 		state = states.attackl
 	}
 }
-
+//kills the player if their hearts go below 0
 if(hearts <= 0){
 	if(state == states.idlel or state == states.runL){
 		facing = -1
@@ -78,12 +72,6 @@ if(hearts <= 0){
 		sprite_index = spr_player_deadr
 	}
 }
-
-//I don't think we need a jump animation because it is hard to implement properly
-
-//can implement the slide and the throwing knife if we have time but it is a lot more 
-//if statements making the processing more dificult. could also implement a double jump
-//feature. should probably be one of the powerups
 
 
 //if there is a block below the player allow them to jump

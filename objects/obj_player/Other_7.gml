@@ -19,10 +19,9 @@ if state == states.dyingl{
 }
 if state == states.dyingr{
 	hearts = 3
-	//totalGold = totalGold + runGold
+	totalGold = 0
 	sprite_index = spr_player_idler;	
 	state = states.idler;	
-	room_restart();
 	room_goto(StartRoom)
 	x = 44;
 	y = 321

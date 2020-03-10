@@ -1,3 +1,3 @@
-with(obj_player){
-		obj_player.dmg = obj_player.dmg + 1
+if(obj_player.dmg <= obj_player.maxdmg){
+	with(obj_player) dmg = dmg + 25
 }

@@ -1,2 +1,3 @@
-with(obj_player) hearts = hearts + 1;
-//obj_player.totalGold -= price;
+if(obj_player.hearts <= obj_player.maxhearts){
+	with(obj_player) hearts = hearts + 1
+}
