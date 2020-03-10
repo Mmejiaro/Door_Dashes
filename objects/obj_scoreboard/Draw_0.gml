@@ -7,4 +7,6 @@ if(instance_exists(obj_player)){
 	}
 	//draws the amount of gold the player has.
 	draw_text(16, 56, string("Gold: ") + string(obj_player.totalGold));
+	
+	audio_play_sound(background, 1, true);
 }
