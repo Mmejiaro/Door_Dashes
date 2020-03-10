@@ -207,6 +207,14 @@
             }
         },
         {
+            "Key": "32354f1e-2e98-4e15-bdca-6800e22c4f65",
+            "Value": {
+                "id": "5080caf7-9548-4857-bd57-3c8db8848c53",
+                "resourcePath": "objects\\obj_bat_path\\obj_bat_path.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "32a9ac2b-5ae2-4a34-97ae-2bf688bb144d",
             "Value": {
                 "id": "a7af606f-935c-4fcf-a031-24f7b83cacf7",
@@ -564,6 +572,14 @@
                 "id": "03e02026-ae49-4f7f-8e30-851cc4110e38",
                 "resourcePath": "rooms\/Level2RD\/Level2RD.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "8183ad2a-beb7-4cdf-9bbb-864f42e42163",
+            "Value": {
+                "id": "554dee29-9e0a-4fa6-b1f4-64d59b4e7f7a",
+                "resourcePath": "paths\\path0\\path0.yy",
+                "resourceType": "GMPath"
             }
         },
         {
