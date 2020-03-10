@@ -1,5 +1,22 @@
-/// @DnDAction : YoYo Games.Common.Execute_Script
-/// @DnDVersion : 1.1
-/// @DnDHash : 4687CAE5
-/// @DnDArgument : "script" "states_array[state]"
-script_execute(states_array[state]);
+
+
+
+
+		// If Object At Place
+	//var l7670EB08_0 = instance_place(x + 2, y + 1, obj_block);
+	//if (!(l7670EB08_0 > 0))
+	//{
+		// Reverse
+	//	direction = (direction + 180) % 360;
+	//}
+
+
+//else if (facing == 1){
+	// If Object At Place
+	//var l05BC18F2_0 = instance_place(x + -16, y + 1, obj_block);
+	//if (!(l05BC18F2_0 > 0))
+	//{
+		// Reverse
+	//	direction = (direction + 180) % 360;
+	//}
+//}

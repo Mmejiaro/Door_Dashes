@@ -1,4 +1,4 @@
-if(room == Shop){
+if(room == Shop or room == ShopBeforeBoss){
 	if(totalGold >= other.price){
 		if(keyboard_check(ord("E"))){
 			totalGold = totalGold - other.price;
