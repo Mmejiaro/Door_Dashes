@@ -74,17 +74,17 @@ else
 /// @DnDAction : YoYo Games.Common.If_Expression
 /// @DnDVersion : 1
 /// @DnDHash : 6BA88EE3
-/// @DnDArgument : "expr" "distance_to_object(obj_player) < 50"
-if(distance_to_object(obj_player) < 50)
+/// @DnDArgument : "expr" "distance_to_object(obj_player) < 45 && facing == -obj_player.facing "
+if(distance_to_object(obj_player) < 45 && facing == -obj_player.facing )
 {
 	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 	/// @DnDVersion : 1
 	/// @DnDHash : 474E33A2
 	/// @DnDParent : 6BA88EE3
 	/// @DnDArgument : "imageind_relative" "1"
-	/// @DnDArgument : "spriteind" "spr_boss_idle"
-	/// @DnDSaveInfo : "spriteind" "0a29612d-b699-4638-98e8-f9dec7b3b9c4"
-	sprite_index = spr_boss_idle;
+	/// @DnDArgument : "spriteind" "spr_boss_attack"
+	/// @DnDSaveInfo : "spriteind" "7c76d0a8-a660-4eb7-96cb-9cbea854d2c4"
+	sprite_index = spr_boss_attack;
 	image_index += 0;
 
 	/// @DnDAction : YoYo Games.Movement.Set_Speed

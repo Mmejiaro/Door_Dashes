@@ -24,10 +24,12 @@ vsp = vsp + grv;
 //if no button is pressed the character will be idle
 if(move == 0 and state != states.attackl and state != states.attackr){
 	if(state == states.runL){
+		facing = -1;
 		state = states.idlel;
 		sprite_index = spr_player_idlel;
 	}
 	else if (state == states.runR){
+		facing = 1;
 		state = states.idler;
 		sprite_index = spr_player_idler;
 	}
@@ -35,12 +37,14 @@ if(move == 0 and state != states.attackl and state != states.attackr){
 
 //if the char runs left the sprite will be running to the left sprite
 if(key_left and state != states.jump and state != states.attackl and state != states.attackr){
+	facing = -1
 	state = states.runL;
 	sprite_index = spr_player_runl;
 }
 
 //if the right button is pressed the sprite will run to the right
 if(key_right and state != states.jump and state != states.attackl and state != states.attackr){
+	facing = 1
 	state = states.runR;
 	sprite_index = spr_player_runr;
 }
@@ -51,10 +55,12 @@ if(key_right and state != states.jump and state != states.attackl and state != s
 //event.
 if key_space{
 	if (state == states.idler or state == states.runR){
+		facing = 1;
 		sprite_index = spr_player_attackr
 		state = states.attackr
 	}
 	else if(state == states.idlel or state == states.runL){
+		facing = -1;
 		sprite_index = spr_player_attackl
 		state = states.attackl
 	}
@@ -62,10 +68,12 @@ if key_space{
 
 if(hearts == 0){
 	if(state == states.idlel or state == states.runL){
+		facing = -1
 		state = states.dyingl
 		sprite_index = spr_player_deadl
 	}
 	if(state == states.idler or state == states.runR){
+		facing = 1
 		state = states.dyingr
 		sprite_index = spr_player_deadr
 	}

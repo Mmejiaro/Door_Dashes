@@ -33,3 +33,4 @@ enum states{
 	dyingr
 }
 state = states.idler;
+facing = 1;
