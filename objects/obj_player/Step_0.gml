@@ -66,7 +66,7 @@ if key_space{
 	}
 }
 
-if(hearts == 0){
+if(hearts <= 0){
 	if(state == states.idlel or state == states.runL){
 		facing = -1
 		state = states.dyingl

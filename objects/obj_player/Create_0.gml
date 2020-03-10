@@ -20,6 +20,7 @@ invin = false;
 dmg = 50;
 frogInvin = false;
 zombieInvin = false;
+bossInvin = false;
 
 enum states{
 	runR,
