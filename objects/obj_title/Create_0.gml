@@ -24,7 +24,7 @@
 /// @DnDHash : 706D9F64
 /// @DnDDisabled : 1
 /// @DnDParent : 78956D3B
-/// @DnDArgument : "soundid" "sound1"
+/// @DnDArgument : "soundid" "mouseclick"
 /// @DnDSaveInfo : "soundid" "361582ea-848b-45cb-8b31-92d4c6ff471d"
 
 
@@ -42,5 +42,5 @@
 /// @DnDHash : 0ECF568B
 /// @DnDDisabled : 1
 /// @DnDParent : 78956D3B
-/// @DnDArgument : "soundid" "sound1"
+/// @DnDArgument : "soundid" "mouseclick"
 /// @DnDSaveInfo : "soundid" "361582ea-848b-45cb-8b31-92d4c6ff471d"

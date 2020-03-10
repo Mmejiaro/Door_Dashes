@@ -266,7 +266,7 @@
             "Key": "361582ea-848b-45cb-8b31-92d4c6ff471d",
             "Value": {
                 "id": "69a861d5-36ff-4a67-a6ae-e87f3247bc5b",
-                "resourcePath": "sounds\/sound1\/sound1.yy",
+                "resourcePath": "sounds\/mouseclick\/mouseclick.yy",
                 "resourceType": "GMSound"
             }
         },
