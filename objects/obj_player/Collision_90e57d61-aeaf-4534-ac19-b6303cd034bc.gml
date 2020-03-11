@@ -3,7 +3,7 @@
 //but for now we can just destroy the enemy object
 //basically if the player is swinging his sword then he will kill the enemy
 if(state == states.attackl or state == states.attackr){
-		audio_play_sound(snd_frog_attack, 2, false);
+		audio_play_sound(snd_enemy_dying, 3, false);
 		with(other) instance_destroy();
 		totalGold = totalGold + 3;
 		
@@ -13,6 +13,7 @@ if(state == states.attackl or state == states.attackr){
 //it would be bad if we lost all our hearts at once so i implemented an invincibility timer.
 else{
 	if(invin == false){
+		audio_play_sound(snd_player_hit, 3, false);
 		invin = true;
 		hearts -= 1;
 		alarm_set(0,100);

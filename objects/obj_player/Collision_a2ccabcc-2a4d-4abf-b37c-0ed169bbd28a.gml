@@ -7,6 +7,7 @@ if(state == states.attackl or state == states.attackr){
 		audio_play_sound(snd_frog_attack, 2, false);
 		other.hp = other.hp - dmg
 		if (other.hp <= 0){
+			audio_play_sound(snd_enemy_dying, 3, false);
 			with(other) instance_destroy();
 			totalGold = totalGold + 5;
 		}
@@ -19,6 +20,7 @@ if(state == states.attackl or state == states.attackr){
 //it would be bad if we lost all our hearts at once so i implemented an invincibility timer.
 else{
 	if(invin == false){
+		audio_play_sound(snd_player_hit, 3, false);
 		invin = true;
 		hearts -= 1;
 		alarm_set(0,100);
