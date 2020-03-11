@@ -30,30 +30,6 @@ if (l3FCDE657_0)
 	/// @DnDArgument : "room" "BossRoom"
 	/// @DnDSaveInfo : "room" "a14efd5d-f21a-4192-a9ef-20a46a603166"
 	room_goto(BossRoom);
-
-	/// @DnDAction : YoYo Games.Common.Variable
-	/// @DnDVersion : 1
-	/// @DnDHash : 73228DB9
-	/// @DnDApplyTo : fca0451d-2b9b-4ae2-8f17-0b657206af2d
-	/// @DnDParent : 3FCDE657
-	/// @DnDArgument : "expr" "200"
-	/// @DnDArgument : "var" "x"
-	with(obj_player) {
-	x = 200;
-	
-	}
-
-	/// @DnDAction : YoYo Games.Common.Variable
-	/// @DnDVersion : 1
-	/// @DnDHash : 6EBE2E31
-	/// @DnDApplyTo : fca0451d-2b9b-4ae2-8f17-0b657206af2d
-	/// @DnDParent : 3FCDE657
-	/// @DnDArgument : "expr" "200"
-	/// @DnDArgument : "var" "y"
-	with(obj_player) {
-	y = 200;
-	
-	}
 }
 
 /// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Pressed
