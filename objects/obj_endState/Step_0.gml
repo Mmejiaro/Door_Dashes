@@ -35,49 +35,16 @@ if(!(instance_exists(obj_boss)))
 		/// @DnDAction : YoYo Games.Game.Restart_Game
 		/// @DnDVersion : 1
 		/// @DnDHash : 776E31EA
+		/// @DnDDisabled : 1
 		/// @DnDParent : 61657133
-		game_restart();
-	}
-}
-
-/// @DnDAction : YoYo Games.Common.If_Expression
-/// @DnDVersion : 1
-/// @DnDHash : 1580D40B
-/// @DnDArgument : "expr" "instance_exists(obj_player)"
-/// @DnDArgument : "not" "1"
-if(!(instance_exists(obj_player)))
-{
-	/// @DnDAction : YoYo Games.Drawing.Draw_Value
-	/// @DnDVersion : 1
-	/// @DnDHash : 212B657B
-	/// @DnDDisabled : 1
-	/// @DnDParent : 1580D40B
-	/// @DnDArgument : "x" "542"
-	/// @DnDArgument : "y" "400"
-	/// @DnDArgument : "var" ""Defeat!""
-
-
-	/// @DnDAction : YoYo Games.Drawing.Draw_Value
-	/// @DnDVersion : 1
-	/// @DnDHash : 4E7392D0
-	/// @DnDDisabled : 1
-	/// @DnDParent : 1580D40B
-	/// @DnDArgument : "x" "542"
-	/// @DnDArgument : "y" "275"
-	/// @DnDArgument : "caption" ""Press Enter to Restart ""
-
-
-	/// @DnDAction : YoYo Games.Common.If_Expression
-	/// @DnDVersion : 1
-	/// @DnDHash : 38BEBF8A
-	/// @DnDParent : 1580D40B
-	/// @DnDArgument : "expr" "keyboard_key_press(vk_enter)"
-	if(keyboard_key_press(vk_enter))
-	{
-		/// @DnDAction : YoYo Games.Game.Restart_Game
+	
+	
+		/// @DnDAction : YoYo Games.Rooms.Go_To_Room
 		/// @DnDVersion : 1
-		/// @DnDHash : 4CF313AF
-		/// @DnDParent : 38BEBF8A
-		game_restart();
+		/// @DnDHash : 72F62EBA
+		/// @DnDParent : 61657133
+		/// @DnDArgument : "room" "StartRoom"
+		/// @DnDSaveInfo : "room" "8f71fd63-913b-4325-990c-5aed402c14b2"
+		room_goto(StartRoom);
 	}
 }
