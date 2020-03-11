@@ -64,12 +64,15 @@ if(hearts <= 0){
 	if(state == states.idlel or state == states.runL){
 		facing = -1
 		state = states.dyingl
+		audio_play_sound(snd_player_die, 2, false);
 		sprite_index = spr_player_deadl
 	}
 	if(state == states.idler or state == states.runR){
 		facing = 1
 		state = states.dyingr
+		audio_play_sound(snd_player_die, 2, false);
 		sprite_index = spr_player_deadr
+		
 	}
 }
 

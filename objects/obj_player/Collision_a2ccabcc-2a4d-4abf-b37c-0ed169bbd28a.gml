@@ -4,6 +4,7 @@
 //basically if the player is swinging his sword then he will kill the enemy
 if(state == states.attackl or state == states.attackr){
 	if(zombieInvin == false){
+		audio_play_sound(snd_frog_attack, 2, false);
 		other.hp = other.hp - dmg
 		if (other.hp <= 0){
 			with(other) instance_destroy();

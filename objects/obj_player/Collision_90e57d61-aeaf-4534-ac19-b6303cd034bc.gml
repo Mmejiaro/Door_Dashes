@@ -3,7 +3,7 @@
 //but for now we can just destroy the enemy object
 //basically if the player is swinging his sword then he will kill the enemy
 if(state == states.attackl or state == states.attackr){
-		
+		audio_play_sound(snd_frog_attack, 2, false);
 		with(other) instance_destroy();
 		totalGold = totalGold + 3;
 		
