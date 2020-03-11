@@ -116,3 +116,20 @@ if (l11FB7457_0)
 	/// @DnDParent : 11FB7457
 	with(obj_boss) instance_destroy();
 }
+
+/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Down
+/// @DnDVersion : 1
+/// @DnDHash : 41B5B094
+/// @DnDArgument : "key" "ord("G")"
+var l41B5B094_0;
+l41B5B094_0 = keyboard_check(ord("G"));
+if (l41B5B094_0)
+{
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 50F9DC9B
+	/// @DnDParent : 41B5B094
+	/// @DnDArgument : "expr" "150"
+	/// @DnDArgument : "var" "totalGold"
+	totalGold = 150;
+}
